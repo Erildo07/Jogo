@@ -23,9 +23,13 @@
 .mario {
   width: 150px;
   position: absolute;
-  bottom: 0;
-  animation: jump 500ms;
+  bottom: 0;  
 }
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
 @keyframes pipe-animation{
   from  {
     right: 0;
