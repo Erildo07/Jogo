@@ -12,3 +12,4 @@ const jump = () => {
 }
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
