@@ -31,6 +31,11 @@
   animation: jump 500ms ease-out;
 }
 
+.clouds {
+  position: absolute;
+  width: 550;
+}
+
 @keyframes pipe-animation {
   from {
     right: 0;
