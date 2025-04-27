@@ -33,7 +33,7 @@
 
 .clouds {
   position: absolute;
-  width: 550;
+  width: 550px;
 }
 
 @keyframes pipe-animation {
