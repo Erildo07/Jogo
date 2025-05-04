@@ -50,11 +50,11 @@
   0% {
     bottom: 0px;
   }
-  50% {
+  40% {
     /* opcional, pode adicionar estilo intermediário */
   }
   50%, 60% {
-    bottom: 220px;
+    bottom: 180px;
   }
   100% {
     bottom: 0;
@@ -92,6 +92,24 @@
   }
 }
 
+@media (max-width: 600px) {
+  .game-board {
+    border-bottom: 8px solid rgb(35, 160, 35); /* Faixa verde mais fina */
+    height: 85vh; /* Ajusta melhor em telas pequenas */
+  }
+
+  .mario {
+    width: 80px;
+  }
+
+  .pipe {
+    width: 50px;
+  }
+
+  .clouds {
+    width: 250px;
+  }
+}
 
 
 
